@@ -1,0 +1,94 @@
+Bureau  examples.desktop  Modèles  site_jo_files  tigres
+bournouville@bournouville-GL552VW:~$ cd
+bournouville@bournouville-GL552VW:~$ home
+
+La commande « home » n'a pas été trouvée, voulez-vous dire :
+
+  commande « hime » du deb hime
+  commande « uhome » du deb uhome
+  commande « tome » du deb tome
+  commande « hose » du deb netpipes
+
+Essayez : sudo apt install <nom du deb>
+
+bournouville@bournouville-GL552VW:~$ ls
+blague     Dropbox           Images   Public         snap             Vidéos
+Bureau     examples.desktop  Modèles  quete_unix     Téléchargements
+Documents  files             Musique  site_jo_files  tigres
+bournouville@bournouville-GL552VW:~$ ls
+blague     Dropbox           Images   Public         snap             Vidéos
+Bureau     examples.desktop  Modèles  quete_unix     Téléchargements
+Documents  files             Musique  site_jo_files  tigres
+bournouville@bournouville-GL552VW:~$ clear
+
+bournouville@bournouville-GL552VW:~$ ls
+blague     Dropbox           Images   Public         snap             Vidéos
+Bureau     examples.desktop  Modèles  quete_unix     Téléchargements
+Documents  files             Musique  site_jo_files  tigres
+bournouville@bournouville-GL552VW:~$ ls telechargements
+ls: impossible d'accéder à 'telechargements': Aucun fichier ou dossier de ce type
+bournouville@bournouville-GL552VW:~$ ls Telechargements
+ls: impossible d'accéder à 'Telechargements': Aucun fichier ou dossier de ce type
+bournouville@bournouville-GL552VW:~$ ls images
+ls: impossible d'accéder à 'images': Aucun fichier ou dossier de ce type
+bournouville@bournouville-GL552VW:~$ ls Images
+bournouville@bournouville-GL552VW:~$ ls Téléchargements/
+'bootstrap-4.3.1 (1).zip'           startbootstrap-shop-homepage-gh-pages.zip
+ clmystery-master.zip               t10.jpg
+ code_1.31.1-1549938243_amd64.deb   t11.jpg
+ dropbox_2019.01.31_amd64.deb       t12.jpg
+ gitkraken-amd64.deb                t1.jpg
+'images (1).zip'                    t2.jpg
+ images.zip                         t3.jpg
+'Non confirmé 189733.crdownload'    t4.jpg
+ photo-tigre1.jpg                   t5.jpg
+ photo-tigre2.jpg                   t6.jpg
+ photo-tigre3.jpg                   t7.jpg
+ photo-tigre.jpg                    t8.jpg
+ rocketchat_2.14.7_amd64.deb        t9.jpg
+bournouville@bournouville-GL552VW:~$ ls Téléchargements
+'bootstrap-4.3.1 (1).zip'           startbootstrap-shop-homepage-gh-pages.zip
+ clmystery-master.zip               t10.jpg
+ code_1.31.1-1549938243_amd64.deb   t11.jpg
+ dropbox_2019.01.31_amd64.deb       t12.jpg
+ gitkraken-amd64.deb                t1.jpg
+'images (1).zip'                    t2.jpg
+ images.zip                         t3.jpg
+'Non confirmé 189733.crdownload'    t4.jpg
+ photo-tigre1.jpg                   t5.jpg
+ photo-tigre2.jpg                   t6.jpg
+ photo-tigre3.jpg                   t7.jpg
+ photo-tigre.jpg                    t8.jpg
+ rocketchat_2.14.7_amd64.deb        t9.jpg
+bournouville@bournouville-GL552VW:~$ pwd
+/home/bournouville
+bournouville@bournouville-GL552VW:~$ cd Images
+bournouville@bournouville-GL552VW:~/Images$  pwd
+/home/bournouville/Images
+bournouville@bournouville-GL552VW:~/Images$ cd ..
+bournouville@bournouville-GL552VW:~$ pwd
+/home/bournouville
+bournouville@bournouville-GL552VW:~$ cd..
+cd.. : commande introuvable
+bournouville@bournouville-GL552VW:~$ pwd
+/home/bournouville
+bournouville@bournouville-GL552VW:~$ cd ..
+bournouville@bournouville-GL552VW:/home$ pwd
+/home
+bournouville@bournouville-GL552VW:/home$ cd ..
+bournouville@bournouville-GL552VW:/$ ls
+bin    dev   initrd.img      lib64       mnt   root  snap      sys  var
+boot   etc   initrd.img.old  lost+found  opt   run   srv       tmp  vmlinuz
+cdrom  home  lib             media       proc  sbin  swapfile  usr  vmlinuz.old
+bournouville@bournouville-GL552VW:/$ cd /home/bournouville/
+bournouville@bournouville-GL552VW:~$ pwd
+/home/bournouville
+bournouville@bournouville-GL552VW:~$ cd Images
+bournouville@bournouville-GL552VW:~/Images$ cd
+bournouville@bournouville-GL552VW:~$ cd ~
+bournouville@bournouville-GL552VW:~$ cd Images/
+bournouville@bournouville-GL552VW:~/Images$ cd ~/Musique/
+bournouville@bournouville-GL552VW:~/Musique$ pwd
+/home/bournouville/Musique
+bournouville@bournouville-GL552VW:~/Musique$ 
+
